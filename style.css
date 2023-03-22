@@ -1,0 +1,167 @@
+body{
+    background-color: #ebe1e5;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* FORM BODY */
+.form{
+    text-align: center;
+    width: 400px;
+    height: 650px;
+    border: 2px solid lightgrey;
+    background-color: cornsilk;
+}
+/* REACT IMAGES */
+.fig{
+    margin-top: 50px;
+}
+.logo{
+    width: 120px;
+    height: 100px;
+    
+}
+.fig p {
+    font-size:15px;
+    font-family: inherit;
+}
+/* INPUT FIELD AND OTHER BUTTON*/
+.section{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+}
+/* LOGIN  */
+.logIn {
+   color: black;
+   font-weight: bold;
+   position: relative;
+   width: 50%;
+   text-align: center;
+    
+}
+/* UNDERLINE */
+.logIn::after{
+    content: "";
+    height: 2px;
+   width: 180px;
+   background: rgb(243, 18, 131);
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   top: 25px;
+}
+/* INPUT FIELD */
+.input-field{
+    margin-top: 30px;
+   
+}
+/* SIGNUP*/
+.SignUp{
+    margin-right: 45px;
+}
+/* EMAIL FIELD */
+.email{
+    outline: none;
+    border: 1px solid black;
+    padding: 10px 15px;
+    border-radius: 15px;
+    text-indent: 5px;
+    width:200px;
+font-family:monospace;
+}
+/* PASSWORD FIELD*/
+.pass{
+    outline: none;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-indent: 5px;
+    margin-top: 10px;
+    padding: 10px 15px;
+        width:200px;
+        font-family:monospace;
+}
+/* BUTTON DIV */
+.button{
+    margin-top: 20px;
+}
+/* BUTTON */
+.button button{
+    width: 250px;
+    border-radius: 20px;
+    border: none;height: 40px;
+    background-color:#fc036b;
+    color: white;
+}
+
+/* FORGOT PASSWORD SPAN */
+.forgot{
+    float: right; padding-right: 70px; margin-top: 10px;
+}
+.forgot span{
+    color: #fc036b;
+    font-weight: 500;
+}
+
+
+/* OTHER LOGIN OPTIONS*/
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+}
+.no-account span{
+   color:#fc036b;
+}
+
+/* ICONS IMAGES */
+.img-icons img{
+    width: 30px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+@media (max-width: 575.98px) {
+    button{
+        width: 100px;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    button{
+        width: 150px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    button{
+        width: 180px;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    button{
+        width: 190px;
+    }
+ }
+
+@media (min-width: 1200px) {  
+    button{
+        width: 250px;
+    }
+
+}
